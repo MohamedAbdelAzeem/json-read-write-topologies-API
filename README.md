@@ -4,7 +4,7 @@
 ### 1- Download and unzip the project.
 ### 2- Open ```jsonAPI.sln``` in visual studio.
 ### 3- Change project include directory :
-#### - go to project properties -> C/C++ -> General -> include directory-> add ```jsonAPI\include``` path
+#### - go to project properties -> C/C++ -> General -> include directory-> add ```YOUR-PATH\include``` path.
 ### 4- build and run.
 
 ### API source file : jsonAPI.cpp
