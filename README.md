@@ -74,5 +74,6 @@ output       : devices : devices connected to topology with the given ID
 return:      : 0 if Deletion is done successfully else return error code  no Topologies exist with the given ID or List is empty.
 ****************************************************************************************************************/
 int DeviceNetlist(string TopologyId, string DeviceId, vector<string>& netlist);
-
 ```
+
+## Testing is done manually through test.cpp.
