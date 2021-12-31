@@ -7,6 +7,9 @@
 #### - go to project properties -> C/C++ -> General -> include directory-> add ```jsonAPI\include``` path
 ### 4- build and run.
 
+### API source file : jsonAPI.cpp
+### API header file : jsonAPI.h
+
 ## API Functions:
 ```
 **********************************************************************************************************
