@@ -64,17 +64,17 @@ Function name: TopologyDevices
 Description  :  Function to get all devices connected to the topology with the given ID
 Inputs:      : Topology ID
 output       : None
-return:      : 0 if Deletion is done successfully else return error code  no Topologies exist with the given ID or List is empty.
+return:      : 0 if is done successfully else return error code  no Topologies exist with the given ID or List is empty.
 ****************************************************************************************************************/
 int TopologyDevices(string TopologyId, vector<string>& devices);
 ```
 ```
 /***************************************************************************************************************
-Function name: TopologyDevices
-Description  : Function to get all devices connected to the topology with the given ID
-Inputs:      : Topology ID
-output       : devices : devices connected to topology with the given ID
-return:      : 0 if Deletion is done successfully else return error code  no Topologies exist with the given ID or List is empty.
+Function name: DeviceNetlist
+Description  : Function to get all netlist devices connected to the topology with the given ID and given Component ID
+Inputs:      : Topology ID, Component ID
+output       :  netlist devices
+return:      : 0 if is done successfully else return error code  no Topologies exist with the given ID or List is empty.
 ****************************************************************************************************************/
 int DeviceNetlist(string TopologyId, string DeviceId, vector<string>& netlist);
 ```
