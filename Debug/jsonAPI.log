@@ -1,0 +1,4 @@
+﻿  test.cpp
+E:\My visual studio workspace\jsonAPI\test.cpp(37,23): warning C4018: '<': signed/unsigned mismatch
+  LINK : E:\My visual studio workspace\jsonAPI\Debug\jsonAPI.exe not found or not built by the last incremental link; performing full link
+  jsonAPI.vcxproj -> E:\My visual studio workspace\jsonAPI\Debug\jsonAPI.exe
